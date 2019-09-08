@@ -1,0 +1,80 @@
+body{
+  background:#f3f3f3;
+  color: $black;
+  font-family: $font-family;
+}
+
+.app{
+  position: relative;
+  overflow: hidden;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  max-height: 812px;
+  height: 100vh;
+  max-width: 375px;
+  width: 100%;
+  border-radius: 2rem;
+  @media (max-height: 832px){
+    margin:0;
+  }
+}
+
+.main{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  font-family: $font-family;
+  font-weight: 700;
+  color: $black;
+  font-size: 1.875rem;
+  margin-bottom: 2rem;
+}
+
+.container{
+  padding: 0 1.25rem;
+}
+
+.normal{
+  background-color:$gray;
+  background: linear-gradient(to left top, darken( $gray, 10% ), $gray 100%);
+}
+
+.water{
+  background-color:$blue;
+  background: linear-gradient(to left top, darken( $blue, 10% ), $blue 100%);
+}
+
+.fire{
+  background-color:$red;
+  background: linear-gradient(to left top, darken( $red, 10% ), $red 100%);
+}
+
+.grass{
+  background: linear-gradient(to left top, darken( $green, 10% ), $green 100%);
+}
+
+.electric{
+  background: linear-gradient(to left top, darken( $yellow, 10% ), $yellow 100%);
+}
+
+.transform-inital{
+  transform: initial !important;
+}
+
+.m-l-auto{
+  margin-left: auto !important;
+}
+.p-t-0{
+  padding-top: 0 !important;
+}
+button{
+  border: none;
+  background: transparent;
+  outline:none;
+  padding: 0;
+}

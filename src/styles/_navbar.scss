@@ -1,0 +1,14 @@
+.header-container{
+  z-index: 3;
+  .nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &.white{
+      button{
+        color:white;
+      }
+    }
+  }
+}
